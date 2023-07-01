@@ -1,0 +1,21 @@
+@use '../../../../styles/variables.scss' as *;
+
+.ct {
+  box-shadow: $box-shadow;
+
+  &__name {
+    font-weight: $text-bold;
+  }
+
+  &__pagination {
+    margin-top: 1rem;
+    text-align: right;
+  }
+
+  &__action {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

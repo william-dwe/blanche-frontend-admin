@@ -1,0 +1,14 @@
+@use '../../../styles/variables.scss' as *;
+
+.fs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  &__text {
+    font-weight: $text-bold;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

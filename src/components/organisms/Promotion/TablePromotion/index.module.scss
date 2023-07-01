@@ -1,0 +1,28 @@
+@use 'src/styles/variables.scss' as *;
+.table__voucher {
+  &__cv {
+    display: flex;
+    gap: 1rem;
+    width: fit-content;
+    &__info {
+      &__name {
+        font-weight: $text-bold;
+      }
+    }
+  }
+
+  &__tp {
+    display: flex;
+
+    flex-direction: column;
+
+    &__item {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      &:first-child {
+        font-weight: $text-bold;
+      }
+    }
+  }
+}

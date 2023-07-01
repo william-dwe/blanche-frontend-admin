@@ -1,0 +1,15 @@
+@use '../../../styles/variables.scss' as *;
+
+.clp {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    &__title {
+      font-size: 1.5rem;
+      font-weight: $text-bold;
+    }
+  }
+}

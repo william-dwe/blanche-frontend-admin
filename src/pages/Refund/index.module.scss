@@ -1,0 +1,11 @@
+@use 'src/styles/variables.scss' as *;
+
+.refund {
+  &__header {
+    margin-bottom: 1rem;
+    &__title {
+      font-size: 1.5rem;
+      font-weight: $text-bold;
+    }
+  }
+}
